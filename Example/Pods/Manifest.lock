@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SecretRecord (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SecretRecord (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SecretRecord:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SecretRecord: 65faf1bf41ccf0d4cd61fe63acc1d340222710b0
+
+PODFILE CHECKSUM: f20396652d920e233e4f5cf5dd010d6c7ef10be5
+
+COCOAPODS: 1.8.0.beta.1
