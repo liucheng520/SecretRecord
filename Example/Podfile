@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SecretRecord_Example' do
+  pod 'SecretRecord', :path => '../'
+
+  target 'SecretRecord_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
