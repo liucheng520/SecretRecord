@@ -8,61 +8,92 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		023AF861F3A39F4BD782066B2A02D168 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = 87C41C1B23E54A5F25820F5F2DA9E63F /* libopencore-amrwb.a */; };
-		02B5E14BDEFA481EB6899B43C2D5ED5A /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2CC8B516120E879110430881D9640F /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		025EA222B0CE88C6684293D3835249A9 /* n_audio_icon_6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB6680AB4CDF95080E6268F53AB2C16 /* n_audio_icon_6@3x.png */; };
 		0ABBEDD6A44CCD7367149D880DF56FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		0D61A76D189C8694F94AB6381B14ACD1 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA86E4B81687E319DBE199EEDDD2B6B /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C58E86F6FD044BEA51E56A81A2A5E38 /* n_audio_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2A329D47D26535DA74259E5E8FF96BB /* n_audio_bg@2x.png */; };
+		0CF2E9746C768E5F9926765ECF6C7335 /* n_audio_icon_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E82090D0B9C1D74086F3270C65820CB /* n_audio_icon_0@2x.png */; };
+		0D873337725A2F09FBE10C93269B6C03 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = F8F8A4A6567FB792AFC3773F24F0B8E0 /* libopencore-amrnb.a */; };
 		0E57042CD11C9D9299D5695A8C0541DE /* Pods-SecretRecord_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E046AE6C33EE4482D42C78D088C8A2 /* Pods-SecretRecord_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		1703EF1CA4874F901E4182F8841C98BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		19EED07A06B38E7FBFB3DDF5FA4C2B54 /* CommonRecordBall.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE6961DACEB6D46E4BBDE58AEAC03A2 /* CommonRecordBall.m */; };
+		200BB53D015570890F44EAEB5B2CFC84 /* SecretRecord.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6450219D5A6BE65FF4B26DA6C869FCB9 /* SecretRecord.bundle */; };
+		2213D732483BE1008D2ABE346F3C69AC /* n_audio_icon_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B2B797B22DCF6516AE08A5F8C8C330 /* n_audio_icon_3@2x.png */; };
+		233AB1BDFD282F3F17D2307EEC203456 /* libvo-amrwbenc.a in Sources */ = {isa = PBXBuildFile; fileRef = C5E7174D6A5196715ED93D3A755AF3F1 /* libvo-amrwbenc.a */; };
 		2DA9C9956E1231ABEA42BCEDA0A27645 /* Pods-SecretRecord_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 126758BD1AD1F8BABE9B8ACC3F8B0DB2 /* Pods-SecretRecord_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		325240F9FDC28C1765D7A9CD03DAA652 /* Pods-SecretRecord_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C38D66CACEB9C949EB792CD818FD8 /* Pods-SecretRecord_Tests-dummy.m */; };
-		346D3DC0C33020F4EE0A11A8C3895067 /* NoteAudioFloatWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1B520C2E4F022BC99D8F3DC9E81A5D /* NoteAudioFloatWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37C38F64EDE3DA1E7055FE820DF10A82 /* EncodeAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F560D29B28C9EF9BD2A68A5B2E4299 /* EncodeAudio.m */; };
-		3D99B3C650C6AEB44E97E567BD375641 /* RecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6C64ACF4999D2EA9503B28D3CD4C49 /* RecordTool.m */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		475362B7F881A55753D98C340596E351 /* wavreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 01A0C0E9CD5AD103F24A063D6FFB3E0D /* wavreader.c */; };
-		5A6DF58F2EFC889314F993AD4E04F3D7 /* SecretRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F965BA8A0EF35852F9843C026F1034F /* SecretRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C08ECC7673374779B226EF977274321 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D9A8F86278A7A3A78EEDE65B71CFE7C /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		602F6C596F2F37E72A809E03F8FA57E1 /* AVAudioPlayer+PCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 03256203DC7B10D6B59633D3C2AB7DDB /* AVAudioPlayer+PCM.m */; };
+		413EE6BC5CEE16E3F399FEEFEDD7B5D9 /* n_audio_icon_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5338F4B4F592FBF7A8C2FE5B4BEA2F42 /* n_audio_icon_3@3x.png */; };
+		4200CA4F73F1B036CC77EEFEDC1F6244 /* NoteAudioFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0106EA833974CAC451B2431E82FEFBC1 /* NoteAudioFloatWindow.m */; };
+		4286EF17268271B4D508784F4FC6F3C7 /* wavreader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0300E7CF8CE5C7CC90B89B72A1D82955 /* wavreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		469BC5A823FB97C7DBBA2E0F6F2BD7CC /* n_audio_icon_9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD834E16F0252A335AE2228419743A79 /* n_audio_icon_9@3x.png */; };
+		46EC4A5FDC765A36BE4BB8EB05A14071 /* wavwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B164E4AFF54ADB2A41BD64639B00B8C /* wavwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4717FA9183FD441B764CDFAA37B40716 /* n_audio_icon_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6FCCC411102688BD2AC83D8BA58E84C /* n_audio_icon_2@2x.png */; };
+		4729846682C31C92A8D57181F18F96E6 /* enc_if.h in Headers */ = {isa = PBXBuildFile; fileRef = DE750492D192EA905308A4E15084A9E1 /* enc_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487243173026D0EB20EB3ACE6895FFFA /* n_audio_icon_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6949F74547C3E4EE53D3D3A3C70CB9 /* n_audio_icon_1@3x.png */; };
+		4D3DD8661F517C75E2CAA6FBE33B61A2 /* NoteMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD91B4257F6A759A1A77B1A1D6B15CF /* NoteMediaManager.m */; };
+		4F96A9B629CAF21F8D9A10881BA744E5 /* CommonRecordBall.m in Sources */ = {isa = PBXBuildFile; fileRef = AC156B4DDA24E33244858E145C0A485D /* CommonRecordBall.m */; };
+		51C3CCFFCBDE57E6B2F12905FBDBC048 /* n_audio_icon_12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A797FC79198C6A7B5D06E127847DF1CB /* n_audio_icon_12@2x.png */; };
+		547720EC9D118C564E11E0FCBA79E98F /* MCAudioInputQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0AF78E695ECC6EE34B0749B406ED35 /* MCAudioInputQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55417876E3340E7ADA53738C1AB9F6BA /* n_audio_icon_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 407F94042108C0ED781B63BC1E977206 /* n_audio_icon_1@2x.png */; };
+		55B7528636118725388030F5C2B53A38 /* SecretRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 329629AEACA20FECBDB52407978446C2 /* SecretRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56C74B4A87BE1BE43768B2F7FF0061C7 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E12566D640EC2656E00D0A9059BBB6 /* if_rom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A336368D5DD4B0E3A2D70B573D04DE3 /* n_audio_icon_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1FECF6FC71F260A40745F12E534EB2 /* n_audio_icon_10@2x.png */; };
+		6A3598407C7D273C0483788BCC02F707 /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C8917693740CAA4D52F752BEF7534DB /* interf_dec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6B847E3D66C1251A3B1898466E51642E /* CommonRecordBall.h in Headers */ = {isa = PBXBuildFile; fileRef = F82A951342CA71D312A86093B103300F /* CommonRecordBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CCCB98E1483B9C81F1A2AB0C65AF4B7 /* AVAudioPlayer+PCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 686A98F6393439187BF1D17B9D39D928 /* AVAudioPlayer+PCM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BB1B392F5489562713B78ED0D7E9CB0 /* RecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1272EAC3E5049ACC22C9F5D13D857248 /* RecordTool.m */; };
+		6BCC33C55FEBA804B2CC109FFAB8E07F /* n_audio_icon_8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6316104F7DD81F84AC5C193244CD67 /* n_audio_icon_8@3x.png */; };
+		6CC39A298965F613649A606C11387C69 /* NoteMediaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC07CA6EA2FACEB5317AC487F4E2DDE /* NoteMediaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
-		6FE39CA1DAA68409174F01E868FA28BE /* RecordTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C300456919B42740632D9C958E70C5 /* RecordTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EFBE9851E3749E07E532FF2C9047C61 /* n_audio_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FFB0585B606B9BDB4B0640F9E9B192C /* n_audio_bg@3x.png */; };
 		7529B7F6C583EBB734680A9E2C9D0D6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		75ACDCEA781BB1D1E76D336F24FDB558 /* SecretRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F48367BB173AF02C156407502DB30F8E /* SecretRecord-dummy.m */; };
-		8597ACE6F1FEF50DBAC0C61DACBFD220 /* libvo-amrwbenc.a in Sources */ = {isa = PBXBuildFile; fileRef = B43FE870F9789AE8614F65B1598925A6 /* libvo-amrwbenc.a */; };
+		83770A58CCEE1C5E71F54E46EBD874D3 /* n_audio_icon_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A90BC9099BFBA982B3E203953C570D0 /* n_audio_icon_7@2x.png */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		89C63E7F4B9E2FAFC9BA477D55EBDD82 /* NoteMediaManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A33516F4521BDF091645EF9E43AB8E /* NoteMediaManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BEA8916C75A69CA6DCEC074BBB367FC /* n_audio_icon_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6051B7FA2C0FCD83D15AE3907A6B324 /* n_audio_icon_4@2x.png */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
+		8DBC17E4AAD01DBAE1E4D1288E5F313A /* CommonRecordBall.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF4A84EB1BCDC66A0A6C4E5C080A047 /* CommonRecordBall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F08C2480D3863FC16B3D37108837A8C /* SecretRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 489B2F03CF3D06FAD5D74E61FEE63724 /* SecretRecord-dummy.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94FDA34CB98E065BDD83498C9FBB90F1 /* Pods-SecretRecord_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D8C1D89AB4CCD19A17754A4B251890 /* Pods-SecretRecord_Example-dummy.m */; };
+		982228101FB58871FC2E3825EF5B4DF2 /* EncodeAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = F76EF566E27C64C3753E3CA6A6D9DD9D /* EncodeAudio.m */; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
-		9D8B35859D09B699CBA944625F941F94 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = 40A03B1B52355DAEA46EA58553333CD0 /* libopencore-amrnb.a */; };
-		A4C643DD16EC5E7E084F93944D547AA3 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 5037FBA523F995A32CC956BB7A853EEF /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD1AA39D9E8069E2FDA3BFC8D60B3CD /* n_audio_icon_12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D1E96502D1EC751CF581C087630D7C /* n_audio_icon_12@3x.png */; };
+		A50CE5E85D004DBCAC5AE2B37DF33C44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */; };
-		AD8F77073577FDC7225CC2113A89E514 /* NoteMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC51BE784566871B1883E173A83E327 /* NoteMediaManager.m */; };
+		A79A7A5A4C012829356BF7D5C4C7D517 /* MCAudioInputQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0E39CBB40EB168C104C5C7DBEB14EB /* MCAudioInputQueue.m */; };
+		AD32083F2DB11629A709D41D02339D9E /* AVAudioPlayer+PCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 872E149BA676ED04BADE39156E54277D /* AVAudioPlayer+PCM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF917500BD5D2B10DE2A2AC2C7F5DE9E /* n_audio_icon_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A05CBCA43EFB7175E37C3C0D42A2A530 /* n_audio_icon_9@2x.png */; };
+		B22728384D74C8B65E5EB168204E1AD2 /* n_audio_icon_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB67D2D6CFD50FBE3B6AFD978746FA /* n_audio_icon_8@2x.png */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		B442BCED762D2C26E97752D33DD11954 /* n_audio_icon_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C833F0CABF5A92679A3866C34E8CFBC7 /* n_audio_icon_0@3x.png */; };
+		B55D6FF545B730250ACA7447F14A67AF /* n_audio_icon_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA33A819FFAFA01EFF6394D8D1A89624 /* n_audio_icon_11@2x.png */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD6EA4D0A2D1F484D4C919E871D54785 /* wavreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D6DECB7DA6168AE162818645746CE98 /* wavreader.c */; };
+		C3ECEADF8DF95AB013621F46C080A00E /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5D50CE75096784AF3C3E5E7FD33E37 /* interf_enc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42230CC5223A5ED06478B318FDC7E7B /* n_audio_icon_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB4B6185F5D8AD622FAA2BF4F272ABB7 /* n_audio_icon_2@3x.png */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6DD0488BE53A50DBD68685924BC1301 /* EncodeAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FAC602A65D5C858F7BEB69136686B5A /* EncodeAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C845581D7DA77676343F2B2E7CDE1C75 /* MCAudioInputQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 69545173A0157F70B2ADBF679079332E /* MCAudioInputQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC22F2C751144ED869ADAD9DEE6FB234 /* NoteAudioFloatWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD97079452D6A4025D2DB20F9E3107BD /* NoteAudioFloatWindow.m */; };
-		CFD730DC8C4B2D0C623F3C27266D7D72 /* MCAudioInputQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F60A9BC5A10FA6636E35CE3890496F /* MCAudioInputQueue.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D5A60DAE71FEBC56E06A3FD27A2B89D9 /* wavwriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 112768CF8DBEF7C68C1C9BB30BD62465 /* wavwriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9DC2AC33FCCF1AD21BD03445FCCB0D3 /* wavwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = D1D1870EA939F886FADE265014C62611 /* wavwriter.c */; };
+		D08557D2F185F908B14B9AE67693B53C /* n_audio_icon_11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A01DAC60B3E61C00D37BA8EB413E4742 /* n_audio_icon_11@3x.png */; };
+		D52380CF9B6D6CBB87CE393E24CEB2B1 /* wavwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B0736FED23F9DE8954043AD6DD02278 /* wavwriter.c */; };
+		D5524C7552C23F21A98E9FEA225773B3 /* n_audio_icon_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3666670D99F7E9D44D89F2FB3662F01 /* n_audio_icon_5@2x.png */; };
+		D9A621BC5797607C5B41FF8E00DEDBDC /* note_audio_float@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928D7782F0544861037DECDD0D87E00D /* note_audio_float@2x.png */; };
+		DB622694B990DE5CF1C015F316362559 /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = 2BF4F484DF816F8E4426469ABB8B42E9 /* libopencore-amrwb.a */; };
+		DC001DCA598AC0D7D576F758BF8DE267 /* n_audio_icon_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7694826013F517FFD39DF3D27B1953D /* n_audio_icon_4@3x.png */; };
+		DDB2B593AE55E3DFDF66C00C2449394C /* n_audio_icon_5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B3248A4A1E75D010C85DB28899E9F00 /* n_audio_icon_5@3x.png */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E7136AD131D48E8C6D8DCCB0172D6AD0 /* wavreader.h in Headers */ = {isa = PBXBuildFile; fileRef = B49BCEEB5276748EAF1DFBC685E0FA24 /* wavreader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2FF67AC47CCD2C3EF09DADCF66FD699 /* AVAudioPlayer+PCM.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CBACDEB518C8DF7A0F1B386D1E80B /* AVAudioPlayer+PCM.m */; };
+		E4DC4B073E9CF9C966B2758D80182F87 /* n_audio_icon_10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B6AAAFA847A2EEB947A0E7AA2561BD2 /* n_audio_icon_10@3x.png */; };
+		E840C8156A31C345D98B3AD9E19EE081 /* n_audio_icon_7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0BCF0497CA93D7122FA12BD201A7217 /* n_audio_icon_7@3x.png */; };
+		E84A336C73DB455452D974C1CB814AE5 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 1408988DB3231914B48AB3511BA6542F /* dec_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */; };
+		EB8FE5415E7CEB3B8CB5E799D015C0C3 /* NoteAudioFloatWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C191A94BFFB610F87751BFE84435CE3 /* NoteAudioFloatWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F12336679FF3070A6A48C08D888CEFCA /* n_audio_icon_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCF053B40C8575AAF467DEF137086AB4 /* n_audio_icon_6@2x.png */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F2A515342B18FAD51D8E363743BD33DF /* RecordTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA58CFFD038D132882A9FD3F0823D4E /* RecordTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61CA0387C50F7C34BC54B38F207551F /* EncodeAudio.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9E4E61E4DF78E9150D92B1013DB54A /* EncodeAudio.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE41AC645412C9C15804DB22710EEF76 /* enc_if.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F415C095F2B8B69D3F34ACADFF52CFB /* enc_if.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC19A314B02020F86B6B8FA47092D990 /* note_audio_float@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E616831664919F669B686110F71C5DD1 /* note_audio_float@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,95 +118,142 @@
 			remoteGlobalIDString = 799E90DBAFA5D88AA02EBBDFE0E18721;
 			remoteInfo = SecretRecord;
 		};
+		C816253A9F60C4AB4B76F9FC58D03847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA5A91786498C8FC1C0D3F06249469F;
+			remoteInfo = "SecretRecord-SecretRecord";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A0C0E9CD5AD103F24A063D6FFB3E0D /* wavreader.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wavreader.c; path = SecretRecord/Classes/wavreader.c; sourceTree = "<group>"; };
-		03256203DC7B10D6B59633D3C2AB7DDB /* AVAudioPlayer+PCM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AVAudioPlayer+PCM.m"; path = "SecretRecord/Classes/AVAudioPlayer+PCM.m"; sourceTree = "<group>"; };
+		0106EA833974CAC451B2431E82FEFBC1 /* NoteAudioFloatWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoteAudioFloatWindow.m; path = SecretRecord/Classes/NoteAudioFloatWindow.m; sourceTree = "<group>"; };
+		0300E7CF8CE5C7CC90B89B72A1D82955 /* wavreader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wavreader.h; path = SecretRecord/Classes/wavreader.h; sourceTree = "<group>"; };
 		0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		0E0007CE9FE7FB8FF05B9C84172F7261 /* SecretRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SecretRecord-prefix.pch"; sourceTree = "<group>"; };
-		0F965BA8A0EF35852F9843C026F1034F /* SecretRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SecretRecord-umbrella.h"; sourceTree = "<group>"; };
-		112768CF8DBEF7C68C1C9BB30BD62465 /* wavwriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wavwriter.h; path = SecretRecord/Classes/wavwriter.h; sourceTree = "<group>"; };
+		0C0AF78E695ECC6EE34B0749B406ED35 /* MCAudioInputQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCAudioInputQueue.h; path = SecretRecord/Classes/MCAudioInputQueue.h; sourceTree = "<group>"; };
+		0F1FECF6FC71F260A40745F12E534EB2 /* n_audio_icon_10@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_10@2x.png"; path = "SecretRecord/Assets/n_audio_icon_10@2x.png"; sourceTree = "<group>"; };
+		0F9E4E61E4DF78E9150D92B1013DB54A /* EncodeAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncodeAudio.h; path = SecretRecord/Classes/EncodeAudio.h; sourceTree = "<group>"; };
 		126758BD1AD1F8BABE9B8ACC3F8B0DB2 /* Pods-SecretRecord_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecretRecord_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1272EAC3E5049ACC22C9F5D13D857248 /* RecordTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RecordTool.m; path = SecretRecord/Classes/RecordTool.m; sourceTree = "<group>"; };
 		13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		1408988DB3231914B48AB3511BA6542F /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = SecretRecord/Classes/dec_if.h; sourceTree = "<group>"; };
+		1ACB67D2D6CFD50FBE3B6AFD978746FA /* n_audio_icon_8@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_8@2x.png"; path = "SecretRecord/Assets/n_audio_icon_8@2x.png"; sourceTree = "<group>"; };
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		1E82090D0B9C1D74086F3270C65820CB /* n_audio_icon_0@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_0@2x.png"; path = "SecretRecord/Assets/n_audio_icon_0@2x.png"; sourceTree = "<group>"; };
 		1FC8736D04E658C5E5448FE6B4CC0A17 /* Pods-SecretRecord_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecretRecord_Example.modulemap"; sourceTree = "<group>"; };
-		37662A7E553C4C998B8C1E480CBD810C /* SecretRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SecretRecord.modulemap; sourceTree = "<group>"; };
-		37F560D29B28C9EF9BD2A68A5B2E4299 /* EncodeAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncodeAudio.m; path = SecretRecord/Classes/EncodeAudio.m; sourceTree = "<group>"; };
+		215C6EF4A159252512554A4D41B55206 /* SecretRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SecretRecord-prefix.pch"; sourceTree = "<group>"; };
+		2B3248A4A1E75D010C85DB28899E9F00 /* n_audio_icon_5@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_5@3x.png"; path = "SecretRecord/Assets/n_audio_icon_5@3x.png"; sourceTree = "<group>"; };
+		2BF4F484DF816F8E4426469ABB8B42E9 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "SecretRecord/Classes/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		2C8917693740CAA4D52F752BEF7534DB /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = SecretRecord/Classes/interf_dec.h; sourceTree = "<group>"; };
+		2DDDA975758EC15C20191BFA5FE18DD1 /* SecretRecord.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SecretRecord.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E5D50CE75096784AF3C3E5E7FD33E37 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = SecretRecord/Classes/interf_enc.h; sourceTree = "<group>"; };
+		329629AEACA20FECBDB52407978446C2 /* SecretRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SecretRecord-umbrella.h"; sourceTree = "<group>"; };
 		3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		3E25376D1C1BE95B6001626E1FC9F3F9 /* SecretRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SecretRecord.modulemap; sourceTree = "<group>"; };
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		40A03B1B52355DAEA46EA58553333CD0 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "SecretRecord/Classes/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		407F94042108C0ED781B63BC1E977206 /* n_audio_icon_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_1@2x.png"; path = "SecretRecord/Assets/n_audio_icon_1@2x.png"; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		4D2CC8B516120E879110430881D9640F /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dec_if.h; path = SecretRecord/Classes/dec_if.h; sourceTree = "<group>"; };
-		5037FBA523F995A32CC956BB7A853EEF /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_enc.h; path = SecretRecord/Classes/interf_enc.h; sourceTree = "<group>"; };
+		489B2F03CF3D06FAD5D74E61FEE63724 /* SecretRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SecretRecord-dummy.m"; sourceTree = "<group>"; };
+		48A46A642FDCCD9578D6B1FBAEB79DEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48E12566D640EC2656E00D0A9059BBB6 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = SecretRecord/Classes/if_rom.h; sourceTree = "<group>"; };
+		4BEA0421A881CE7D5116B5040F1A3A71 /* ResourceBundle-SecretRecord-SecretRecord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SecretRecord-SecretRecord-Info.plist"; sourceTree = "<group>"; };
+		5338F4B4F592FBF7A8C2FE5B4BEA2F42 /* n_audio_icon_3@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_3@3x.png"; path = "SecretRecord/Assets/n_audio_icon_3@3x.png"; sourceTree = "<group>"; };
 		5845F48496D52A3790A17A2D76787EF6 /* Pods_SecretRecord_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SecretRecord_Example.framework; path = "Pods-SecretRecord_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		585636A6A288F8F41287919773941244 /* Pods-SecretRecord_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretRecord_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B6AAAFA847A2EEB947A0E7AA2561BD2 /* n_audio_icon_10@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_10@3x.png"; path = "SecretRecord/Assets/n_audio_icon_10@3x.png"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6DECB7DA6168AE162818645746CE98 /* wavreader.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wavreader.c; path = SecretRecord/Classes/wavreader.c; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		686A98F6393439187BF1D17B9D39D928 /* AVAudioPlayer+PCM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AVAudioPlayer+PCM.h"; path = "SecretRecord/Classes/AVAudioPlayer+PCM.h"; sourceTree = "<group>"; };
-		69545173A0157F70B2ADBF679079332E /* MCAudioInputQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCAudioInputQueue.h; path = SecretRecord/Classes/MCAudioInputQueue.h; sourceTree = "<group>"; };
+		6450219D5A6BE65FF4B26DA6C869FCB9 /* SecretRecord.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SecretRecord.bundle; path = "SecretRecord-SecretRecord.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0BBB4A54EE5BDFC38DE5FD7D220C5E /* Pods-SecretRecord_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecretRecord_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6E1B520C2E4F022BC99D8F3DC9E81A5D /* NoteAudioFloatWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoteAudioFloatWindow.h; path = SecretRecord/Classes/NoteAudioFloatWindow.h; sourceTree = "<group>"; };
-		6F415C095F2B8B69D3F34ACADFF52CFB /* enc_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = enc_if.h; path = SecretRecord/Classes/enc_if.h; sourceTree = "<group>"; };
-		70F60A9BC5A10FA6636E35CE3890496F /* MCAudioInputQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCAudioInputQueue.m; path = SecretRecord/Classes/MCAudioInputQueue.m; sourceTree = "<group>"; };
+		6A90BC9099BFBA982B3E203953C570D0 /* n_audio_icon_7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_7@2x.png"; path = "SecretRecord/Assets/n_audio_icon_7@2x.png"; sourceTree = "<group>"; };
+		6BD91B4257F6A759A1A77B1A1D6B15CF /* NoteMediaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoteMediaManager.m; path = SecretRecord/Classes/NoteMediaManager.m; sourceTree = "<group>"; };
+		6C6949F74547C3E4EE53D3D3A3C70CB9 /* n_audio_icon_1@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_1@3x.png"; path = "SecretRecord/Assets/n_audio_icon_1@3x.png"; sourceTree = "<group>"; };
+		6FFB0585B606B9BDB4B0640F9E9B192C /* n_audio_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_bg@3x.png"; path = "SecretRecord/Assets/n_audio_bg@3x.png"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		746CC9C9E1B0E104CD1BA120C69A2526 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		7B0736FED23F9DE8954043AD6DD02278 /* wavwriter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wavwriter.c; path = SecretRecord/Classes/wavwriter.c; sourceTree = "<group>"; };
 		7B42537B61DC7BC91EA2DBF2A68783B1 /* Pods-SecretRecord_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretRecord_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7F4ADA3FA135C17CD5326C1A6DC65130 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		7FAC602A65D5C858F7BEB69136686B5A /* EncodeAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EncodeAudio.h; path = SecretRecord/Classes/EncodeAudio.h; sourceTree = "<group>"; };
+		7C191A94BFFB610F87751BFE84435CE3 /* NoteAudioFloatWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoteAudioFloatWindow.h; path = SecretRecord/Classes/NoteAudioFloatWindow.h; sourceTree = "<group>"; };
+		80B2B797B22DCF6516AE08A5F8C8C330 /* n_audio_icon_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_3@2x.png"; path = "SecretRecord/Assets/n_audio_icon_3@2x.png"; sourceTree = "<group>"; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		87C41C1B23E54A5F25820F5F2DA9E63F /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "SecretRecord/Classes/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		843C57832F913F137FBAEB1113BCC370 /* SecretRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SecretRecord.xcconfig; sourceTree = "<group>"; };
+		872E149BA676ED04BADE39156E54277D /* AVAudioPlayer+PCM.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AVAudioPlayer+PCM.h"; path = "SecretRecord/Classes/AVAudioPlayer+PCM.h"; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8AA1B650F138503CC126A1E0E1621029 /* Pods-SecretRecord_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretRecord_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8B164E4AFF54ADB2A41BD64639B00B8C /* wavwriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wavwriter.h; path = SecretRecord/Classes/wavwriter.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		8F7C38D66CACEB9C949EB792CD818FD8 /* Pods-SecretRecord_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecretRecord_Tests-dummy.m"; sourceTree = "<group>"; };
-		90C300456919B42740632D9C958E70C5 /* RecordTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordTool.h; path = SecretRecord/Classes/RecordTool.h; sourceTree = "<group>"; };
+		928D7782F0544861037DECDD0D87E00D /* note_audio_float@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "note_audio_float@2x.png"; path = "SecretRecord/Assets/note_audio_float@2x.png"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		998387309683AF97E588E46069D7C91E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9D6C64ACF4999D2EA9503B28D3CD4C49 /* RecordTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RecordTool.m; path = SecretRecord/Classes/RecordTool.m; sourceTree = "<group>"; };
+		99D1E96502D1EC751CF581C087630D7C /* n_audio_icon_12@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_12@3x.png"; path = "SecretRecord/Assets/n_audio_icon_12@3x.png"; sourceTree = "<group>"; };
+		9AC07CA6EA2FACEB5317AC487F4E2DDE /* NoteMediaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoteMediaManager.h; path = SecretRecord/Classes/NoteMediaManager.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9A8F86278A7A3A78EEDE65B71CFE7C /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_rom.h; path = SecretRecord/Classes/if_rom.h; sourceTree = "<group>"; };
-		9E78836284AD797392C5DDB2A8CD8255 /* SecretRecord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SecretRecord-Info.plist"; sourceTree = "<group>"; };
+		A01DAC60B3E61C00D37BA8EB413E4742 /* n_audio_icon_11@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_11@3x.png"; path = "SecretRecord/Assets/n_audio_icon_11@3x.png"; sourceTree = "<group>"; };
+		A05CBCA43EFB7175E37C3C0D42A2A530 /* n_audio_icon_9@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_9@2x.png"; path = "SecretRecord/Assets/n_audio_icon_9@2x.png"; sourceTree = "<group>"; };
 		A231A640BF7D93EF15EF0B1B148778B3 /* Pods-SecretRecord_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretRecord_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		A3E046AE6C33EE4482D42C78D088C8A2 /* Pods-SecretRecord_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SecretRecord_Example-umbrella.h"; sourceTree = "<group>"; };
+		A6051B7FA2C0FCD83D15AE3907A6B324 /* n_audio_icon_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_4@2x.png"; path = "SecretRecord/Assets/n_audio_icon_4@2x.png"; sourceTree = "<group>"; };
+		A797FC79198C6A7B5D06E127847DF1CB /* n_audio_icon_12@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_12@2x.png"; path = "SecretRecord/Assets/n_audio_icon_12@2x.png"; sourceTree = "<group>"; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		AA33A819FFAFA01EFF6394D8D1A89624 /* n_audio_icon_11@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_11@2x.png"; path = "SecretRecord/Assets/n_audio_icon_11@2x.png"; sourceTree = "<group>"; };
+		AC156B4DDA24E33244858E145C0A485D /* CommonRecordBall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CommonRecordBall.m; path = SecretRecord/Classes/CommonRecordBall.m; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		AD834E16F0252A335AE2228419743A79 /* n_audio_icon_9@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_9@3x.png"; path = "SecretRecord/Assets/n_audio_icon_9@3x.png"; sourceTree = "<group>"; };
+		AF0E39CBB40EB168C104C5C7DBEB14EB /* MCAudioInputQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCAudioInputQueue.m; path = SecretRecord/Classes/MCAudioInputQueue.m; sourceTree = "<group>"; };
+		AFF4A84EB1BCDC66A0A6C4E5C080A047 /* CommonRecordBall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonRecordBall.h; path = SecretRecord/Classes/CommonRecordBall.h; sourceTree = "<group>"; };
 		B001EB266D39EED43CAF0E18C495A4F6 /* Pods-SecretRecord_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretRecord_Example-Info.plist"; sourceTree = "<group>"; };
-		B43FE870F9789AE8614F65B1598925A6 /* libvo-amrwbenc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libvo-amrwbenc.a"; path = "SecretRecord/Classes/libvo-amrwbenc.a"; sourceTree = "<group>"; };
-		B49BCEEB5276748EAF1DFBC685E0FA24 /* wavreader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wavreader.h; path = SecretRecord/Classes/wavreader.h; sourceTree = "<group>"; };
-		B8A33516F4521BDF091645EF9E43AB8E /* NoteMediaManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoteMediaManager.h; path = SecretRecord/Classes/NoteMediaManager.h; sourceTree = "<group>"; };
-		BDA86E4B81687E319DBE199EEDDD2B6B /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = interf_dec.h; path = SecretRecord/Classes/interf_dec.h; sourceTree = "<group>"; };
+		B0BCF0497CA93D7122FA12BD201A7217 /* n_audio_icon_7@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_7@3x.png"; path = "SecretRecord/Assets/n_audio_icon_7@3x.png"; sourceTree = "<group>"; };
+		BBE0DA6088DD540BFD3B9634D5EEC8E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BCB6680AB4CDF95080E6268F53AB2C16 /* n_audio_icon_6@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_6@3x.png"; path = "SecretRecord/Assets/n_audio_icon_6@3x.png"; sourceTree = "<group>"; };
+		BCF053B40C8575AAF467DEF137086AB4 /* n_audio_icon_6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_6@2x.png"; path = "SecretRecord/Assets/n_audio_icon_6@2x.png"; sourceTree = "<group>"; };
 		C26DCC2DFFE02ECE21A5DEF4F2C2868F /* Pods-SecretRecord_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecretRecord_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C61ABB98A1F33C39923FCF68392210B0 /* SecretRecord.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SecretRecord.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2A329D47D26535DA74259E5E8FF96BB /* n_audio_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_bg@2x.png"; path = "SecretRecord/Assets/n_audio_bg@2x.png"; sourceTree = "<group>"; };
+		C5E7174D6A5196715ED93D3A755AF3F1 /* libvo-amrwbenc.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libvo-amrwbenc.a"; path = "SecretRecord/Classes/libvo-amrwbenc.a"; sourceTree = "<group>"; };
+		C833F0CABF5A92679A3866C34E8CFBC7 /* n_audio_icon_0@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_0@3x.png"; path = "SecretRecord/Assets/n_audio_icon_0@3x.png"; sourceTree = "<group>"; };
 		C88360213C689A6D6D51371DAEAAFD60 /* Pods_SecretRecord_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SecretRecord_Tests.framework; path = "Pods-SecretRecord_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD97079452D6A4025D2DB20F9E3107BD /* NoteAudioFloatWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoteAudioFloatWindow.m; path = SecretRecord/Classes/NoteAudioFloatWindow.m; sourceTree = "<group>"; };
-		D1D1870EA939F886FADE265014C62611 /* wavwriter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = wavwriter.c; path = SecretRecord/Classes/wavwriter.c; sourceTree = "<group>"; };
+		CB4B6185F5D8AD622FAA2BF4F272ABB7 /* n_audio_icon_2@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_2@3x.png"; path = "SecretRecord/Assets/n_audio_icon_2@3x.png"; sourceTree = "<group>"; };
+		CBA58CFFD038D132882A9FD3F0823D4E /* RecordTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RecordTool.h; path = SecretRecord/Classes/RecordTool.h; sourceTree = "<group>"; };
+		CC1CBACDEB518C8DF7A0F1B386D1E80B /* AVAudioPlayer+PCM.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AVAudioPlayer+PCM.m"; path = "SecretRecord/Classes/AVAudioPlayer+PCM.m"; sourceTree = "<group>"; };
+		CE6316104F7DD81F84AC5C193244CD67 /* n_audio_icon_8@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_8@3x.png"; path = "SecretRecord/Assets/n_audio_icon_8@3x.png"; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		D5B295BA6E7F0D22EEEFA70398F35B97 /* Pods-SecretRecord_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SecretRecord_Tests.modulemap"; sourceTree = "<group>"; };
+		D6FCCC411102688BD2AC83D8BA58E84C /* n_audio_icon_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_2@2x.png"; path = "SecretRecord/Assets/n_audio_icon_2@2x.png"; sourceTree = "<group>"; };
 		DCEE8BD5B9D4B49BA4F18A2749FD404D /* Pods-SecretRecord_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SecretRecord_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DD91E38304DE8982AF0D934A494BC061 /* Pods-SecretRecord_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SecretRecord_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DDC85B9C031E870DE6715E770BFA39EB /* SecretRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SecretRecord.xcconfig; sourceTree = "<group>"; };
-		DDE6961DACEB6D46E4BBDE58AEAC03A2 /* CommonRecordBall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CommonRecordBall.m; path = SecretRecord/Classes/CommonRecordBall.m; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		DE750492D192EA905308A4E15084A9E1 /* enc_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = enc_if.h; path = SecretRecord/Classes/enc_if.h; sourceTree = "<group>"; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		E3666670D99F7E9D44D89F2FB3662F01 /* n_audio_icon_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_5@2x.png"; path = "SecretRecord/Assets/n_audio_icon_5@2x.png"; sourceTree = "<group>"; };
+		E3B5FB99646242096A099C181B47D8E3 /* SecretRecord-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SecretRecord-Info.plist"; sourceTree = "<group>"; };
+		E616831664919F669B686110F71C5DD1 /* note_audio_float@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "note_audio_float@3x.png"; path = "SecretRecord/Assets/note_audio_float@3x.png"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		E6D8C1D89AB4CCD19A17754A4B251890 /* Pods-SecretRecord_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SecretRecord_Example-dummy.m"; sourceTree = "<group>"; };
 		E6F3BE1CEA3E242106FE97CF0B54841C /* SecretRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SecretRecord.framework; path = SecretRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72319CF27F01508A6CF588C020AA0BB /* Pods-SecretRecord_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretRecord_Tests-Info.plist"; sourceTree = "<group>"; };
+		E7694826013F517FFD39DF3D27B1953D /* n_audio_icon_4@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "n_audio_icon_4@3x.png"; path = "SecretRecord/Assets/n_audio_icon_4@3x.png"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EDFF4F6F88BC1C83B1F54E6D9446BA09 /* Pods-SecretRecord_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SecretRecord_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F01DBCFC4DB4CA8F7FC3714000383AE2 /* Pods-SecretRecord_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SecretRecord_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F48367BB173AF02C156407502DB30F8E /* SecretRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SecretRecord-dummy.m"; sourceTree = "<group>"; };
-		F82A951342CA71D312A86093B103300F /* CommonRecordBall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonRecordBall.h; path = SecretRecord/Classes/CommonRecordBall.h; sourceTree = "<group>"; };
-		FAC51BE784566871B1883E173A83E327 /* NoteMediaManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoteMediaManager.m; path = SecretRecord/Classes/NoteMediaManager.m; sourceTree = "<group>"; };
+		F76EF566E27C64C3753E3CA6A6D9DD9D /* EncodeAudio.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EncodeAudio.m; path = SecretRecord/Classes/EncodeAudio.m; sourceTree = "<group>"; };
+		F8F8A4A6567FB792AFC3773F24F0B8E0 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "SecretRecord/Classes/libopencore-amrnb.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1BB9F6C49657DEFE591ED81341FB9B39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50CE5E85D004DBCAC5AE2B37DF33C44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		383EFE6EFD4CA32AE73377CE241B924C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,14 +270,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C484F82630BBE250F51170556BBDC40 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1703EF1CA4874F901E4182F8841C98BE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,23 +281,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB837C159DE7FBABF8B295435935A5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14BFC75AD870BD684F134AF33FBB35B3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37662A7E553C4C998B8C1E480CBD810C /* SecretRecord.modulemap */,
-				DDC85B9C031E870DE6715E770BFA39EB /* SecretRecord.xcconfig */,
-				F48367BB173AF02C156407502DB30F8E /* SecretRecord-dummy.m */,
-				9E78836284AD797392C5DDB2A8CD8255 /* SecretRecord-Info.plist */,
-				0E0007CE9FE7FB8FF05B9C84172F7261 /* SecretRecord-prefix.pch */,
-				0F965BA8A0EF35852F9843C026F1034F /* SecretRecord-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SecretRecord";
-			sourceTree = "<group>";
-		};
 		45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,24 +305,6 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		519F1BCFAF07090A587C65DF9C7E9F6D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AF17588EBD94E6CC9764B9060D5258BF /* SecretRecord */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		77E007686D0CA77655FC2DB0D8AD6F2F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				998387309683AF97E588E46069D7C91E /* LICENSE */,
-				7F4ADA3FA135C17CD5326C1A6DC65130 /* README.md */,
-				C61ABB98A1F33C39923FCF68392210B0 /* SecretRecord.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DE5752EED0A4C4A430975244947611A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,15 +316,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		7E81CCB1350BAB64F597C3287757FA42 /* Products */ = {
+		7F043394AC2F838CA9AA57881EAE3F77 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
-				5845F48496D52A3790A17A2D76787EF6 /* Pods_SecretRecord_Example.framework */,
-				C88360213C689A6D6D51371DAEAAFD60 /* Pods_SecretRecord_Tests.framework */,
-				E6F3BE1CEA3E242106FE97CF0B54841C /* SecretRecord.framework */,
+				C2A329D47D26535DA74259E5E8FF96BB /* n_audio_bg@2x.png */,
+				6FFB0585B606B9BDB4B0640F9E9B192C /* n_audio_bg@3x.png */,
+				1E82090D0B9C1D74086F3270C65820CB /* n_audio_icon_0@2x.png */,
+				C833F0CABF5A92679A3866C34E8CFBC7 /* n_audio_icon_0@3x.png */,
+				0F1FECF6FC71F260A40745F12E534EB2 /* n_audio_icon_10@2x.png */,
+				5B6AAAFA847A2EEB947A0E7AA2561BD2 /* n_audio_icon_10@3x.png */,
+				AA33A819FFAFA01EFF6394D8D1A89624 /* n_audio_icon_11@2x.png */,
+				A01DAC60B3E61C00D37BA8EB413E4742 /* n_audio_icon_11@3x.png */,
+				A797FC79198C6A7B5D06E127847DF1CB /* n_audio_icon_12@2x.png */,
+				99D1E96502D1EC751CF581C087630D7C /* n_audio_icon_12@3x.png */,
+				407F94042108C0ED781B63BC1E977206 /* n_audio_icon_1@2x.png */,
+				6C6949F74547C3E4EE53D3D3A3C70CB9 /* n_audio_icon_1@3x.png */,
+				D6FCCC411102688BD2AC83D8BA58E84C /* n_audio_icon_2@2x.png */,
+				CB4B6185F5D8AD622FAA2BF4F272ABB7 /* n_audio_icon_2@3x.png */,
+				80B2B797B22DCF6516AE08A5F8C8C330 /* n_audio_icon_3@2x.png */,
+				5338F4B4F592FBF7A8C2FE5B4BEA2F42 /* n_audio_icon_3@3x.png */,
+				A6051B7FA2C0FCD83D15AE3907A6B324 /* n_audio_icon_4@2x.png */,
+				E7694826013F517FFD39DF3D27B1953D /* n_audio_icon_4@3x.png */,
+				E3666670D99F7E9D44D89F2FB3662F01 /* n_audio_icon_5@2x.png */,
+				2B3248A4A1E75D010C85DB28899E9F00 /* n_audio_icon_5@3x.png */,
+				BCF053B40C8575AAF467DEF137086AB4 /* n_audio_icon_6@2x.png */,
+				BCB6680AB4CDF95080E6268F53AB2C16 /* n_audio_icon_6@3x.png */,
+				6A90BC9099BFBA982B3E203953C570D0 /* n_audio_icon_7@2x.png */,
+				B0BCF0497CA93D7122FA12BD201A7217 /* n_audio_icon_7@3x.png */,
+				1ACB67D2D6CFD50FBE3B6AFD978746FA /* n_audio_icon_8@2x.png */,
+				CE6316104F7DD81F84AC5C193244CD67 /* n_audio_icon_8@3x.png */,
+				A05CBCA43EFB7175E37C3C0D42A2A530 /* n_audio_icon_9@2x.png */,
+				AD834E16F0252A335AE2228419743A79 /* n_audio_icon_9@3x.png */,
+				928D7782F0544861037DECDD0D87E00D /* note_audio_float@2x.png */,
+				E616831664919F669B686110F71C5DD1 /* note_audio_float@3x.png */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */ = {
@@ -288,6 +359,21 @@
 				82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		8FC5DDF3AA882A9CDEEAEDC5B18E99D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BEA0421A881CE7D5116B5040F1A3A71 /* ResourceBundle-SecretRecord-SecretRecord-Info.plist */,
+				3E25376D1C1BE95B6001626E1FC9F3F9 /* SecretRecord.modulemap */,
+				843C57832F913F137FBAEB1113BCC370 /* SecretRecord.xcconfig */,
+				489B2F03CF3D06FAD5D74E61FEE63724 /* SecretRecord-dummy.m */,
+				E3B5FB99646242096A099C181B47D8E3 /* SecretRecord-Info.plist */,
+				215C6EF4A159252512554A4D41B55206 /* SecretRecord-prefix.pch */,
+				329629AEACA20FECBDB52407978446C2 /* SecretRecord-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SecretRecord";
 			sourceTree = "<group>";
 		};
 		92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */ = {
@@ -356,41 +442,54 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		AF17588EBD94E6CC9764B9060D5258BF /* SecretRecord */ = {
+		A229F442EF4DF2249E612C8BBBC750B1 /* SecretRecord */ = {
 			isa = PBXGroup;
 			children = (
-				686A98F6393439187BF1D17B9D39D928 /* AVAudioPlayer+PCM.h */,
-				03256203DC7B10D6B59633D3C2AB7DDB /* AVAudioPlayer+PCM.m */,
-				F82A951342CA71D312A86093B103300F /* CommonRecordBall.h */,
-				DDE6961DACEB6D46E4BBDE58AEAC03A2 /* CommonRecordBall.m */,
-				4D2CC8B516120E879110430881D9640F /* dec_if.h */,
-				6F415C095F2B8B69D3F34ACADFF52CFB /* enc_if.h */,
-				7FAC602A65D5C858F7BEB69136686B5A /* EncodeAudio.h */,
-				37F560D29B28C9EF9BD2A68A5B2E4299 /* EncodeAudio.m */,
-				9D9A8F86278A7A3A78EEDE65B71CFE7C /* if_rom.h */,
-				BDA86E4B81687E319DBE199EEDDD2B6B /* interf_dec.h */,
-				5037FBA523F995A32CC956BB7A853EEF /* interf_enc.h */,
-				40A03B1B52355DAEA46EA58553333CD0 /* libopencore-amrnb.a */,
-				87C41C1B23E54A5F25820F5F2DA9E63F /* libopencore-amrwb.a */,
-				B43FE870F9789AE8614F65B1598925A6 /* libvo-amrwbenc.a */,
-				69545173A0157F70B2ADBF679079332E /* MCAudioInputQueue.h */,
-				70F60A9BC5A10FA6636E35CE3890496F /* MCAudioInputQueue.m */,
-				6E1B520C2E4F022BC99D8F3DC9E81A5D /* NoteAudioFloatWindow.h */,
-				CD97079452D6A4025D2DB20F9E3107BD /* NoteAudioFloatWindow.m */,
-				B8A33516F4521BDF091645EF9E43AB8E /* NoteMediaManager.h */,
-				FAC51BE784566871B1883E173A83E327 /* NoteMediaManager.m */,
-				90C300456919B42740632D9C958E70C5 /* RecordTool.h */,
-				9D6C64ACF4999D2EA9503B28D3CD4C49 /* RecordTool.m */,
-				01A0C0E9CD5AD103F24A063D6FFB3E0D /* wavreader.c */,
-				B49BCEEB5276748EAF1DFBC685E0FA24 /* wavreader.h */,
-				D1D1870EA939F886FADE265014C62611 /* wavwriter.c */,
-				112768CF8DBEF7C68C1C9BB30BD62465 /* wavwriter.h */,
-				EE08DED31F904F64571BA112F2CC80AF /* Frameworks */,
-				77E007686D0CA77655FC2DB0D8AD6F2F /* Pod */,
-				14BFC75AD870BD684F134AF33FBB35B3 /* Support Files */,
+				872E149BA676ED04BADE39156E54277D /* AVAudioPlayer+PCM.h */,
+				CC1CBACDEB518C8DF7A0F1B386D1E80B /* AVAudioPlayer+PCM.m */,
+				AFF4A84EB1BCDC66A0A6C4E5C080A047 /* CommonRecordBall.h */,
+				AC156B4DDA24E33244858E145C0A485D /* CommonRecordBall.m */,
+				1408988DB3231914B48AB3511BA6542F /* dec_if.h */,
+				DE750492D192EA905308A4E15084A9E1 /* enc_if.h */,
+				0F9E4E61E4DF78E9150D92B1013DB54A /* EncodeAudio.h */,
+				F76EF566E27C64C3753E3CA6A6D9DD9D /* EncodeAudio.m */,
+				48E12566D640EC2656E00D0A9059BBB6 /* if_rom.h */,
+				2C8917693740CAA4D52F752BEF7534DB /* interf_dec.h */,
+				2E5D50CE75096784AF3C3E5E7FD33E37 /* interf_enc.h */,
+				F8F8A4A6567FB792AFC3773F24F0B8E0 /* libopencore-amrnb.a */,
+				2BF4F484DF816F8E4426469ABB8B42E9 /* libopencore-amrwb.a */,
+				C5E7174D6A5196715ED93D3A755AF3F1 /* libvo-amrwbenc.a */,
+				0C0AF78E695ECC6EE34B0749B406ED35 /* MCAudioInputQueue.h */,
+				AF0E39CBB40EB168C104C5C7DBEB14EB /* MCAudioInputQueue.m */,
+				7C191A94BFFB610F87751BFE84435CE3 /* NoteAudioFloatWindow.h */,
+				0106EA833974CAC451B2431E82FEFBC1 /* NoteAudioFloatWindow.m */,
+				9AC07CA6EA2FACEB5317AC487F4E2DDE /* NoteMediaManager.h */,
+				6BD91B4257F6A759A1A77B1A1D6B15CF /* NoteMediaManager.m */,
+				CBA58CFFD038D132882A9FD3F0823D4E /* RecordTool.h */,
+				1272EAC3E5049ACC22C9F5D13D857248 /* RecordTool.m */,
+				5D6DECB7DA6168AE162818645746CE98 /* wavreader.c */,
+				0300E7CF8CE5C7CC90B89B72A1D82955 /* wavreader.h */,
+				7B0736FED23F9DE8954043AD6DD02278 /* wavwriter.c */,
+				8B164E4AFF54ADB2A41BD64639B00B8C /* wavwriter.h */,
+				D510F69DEC25C251A2445BAE99E1586F /* Frameworks */,
+				BC5AB01674C36EDD852C22C242B1BE50 /* Pod */,
+				7F043394AC2F838CA9AA57881EAE3F77 /* Resources */,
+				8FC5DDF3AA882A9CDEEAEDC5B18E99D0 /* Support Files */,
 			);
 			name = SecretRecord;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4EB0D185EE579E627C549FC25D57C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				5845F48496D52A3790A17A2D76787EF6 /* Pods_SecretRecord_Example.framework */,
+				C88360213C689A6D6D51371DAEAAFD60 /* Pods_SecretRecord_Tests.framework */,
+				6450219D5A6BE65FF4B26DA6C869FCB9 /* SecretRecord.bundle */,
+				E6F3BE1CEA3E242106FE97CF0B54841C /* SecretRecord.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -401,14 +500,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BC5AB01674C36EDD852C22C242B1BE50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBE0DA6088DD540BFD3B9634D5EEC8E8 /* LICENSE */,
+				48A46A642FDCCD9578D6B1FBAEB79DEC /* README.md */,
+				2DDDA975758EC15C20191BFA5FE18DD1 /* SecretRecord.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CB597B05EAD07C498C8D9E0139A251F8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A229F442EF4DF2249E612C8BBBC750B1 /* SecretRecord */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				519F1BCFAF07090A587C65DF9C7E9F6D /* Development Pods */,
+				CB597B05EAD07C498C8D9E0139A251F8 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				7E81CCB1350BAB64F597C3287757FA42 /* Products */,
+				B4EB0D185EE579E627C549FC25D57C0E /* Products */,
 				D28B782558D9C3A9992865365F089515 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -422,19 +539,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		D510F69DEC25C251A2445BAE99E1586F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				92B9827D134822FECA2FBE88A0585CBA /* FBSnapshotTestCase */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		EE08DED31F904F64571BA112F2CC80AF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,25 +572,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E2C338D7A3C138186607B48ADD2157D /* Headers */ = {
+		6C7A134EDAA0CF4D48C2A7620CD16F36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CCCB98E1483B9C81F1A2AB0C65AF4B7 /* AVAudioPlayer+PCM.h in Headers */,
-				6B847E3D66C1251A3B1898466E51642E /* CommonRecordBall.h in Headers */,
-				02B5E14BDEFA481EB6899B43C2D5ED5A /* dec_if.h in Headers */,
-				FE41AC645412C9C15804DB22710EEF76 /* enc_if.h in Headers */,
-				C6DD0488BE53A50DBD68685924BC1301 /* EncodeAudio.h in Headers */,
-				5C08ECC7673374779B226EF977274321 /* if_rom.h in Headers */,
-				0D61A76D189C8694F94AB6381B14ACD1 /* interf_dec.h in Headers */,
-				A4C643DD16EC5E7E084F93944D547AA3 /* interf_enc.h in Headers */,
-				C845581D7DA77676343F2B2E7CDE1C75 /* MCAudioInputQueue.h in Headers */,
-				346D3DC0C33020F4EE0A11A8C3895067 /* NoteAudioFloatWindow.h in Headers */,
-				89C63E7F4B9E2FAFC9BA477D55EBDD82 /* NoteMediaManager.h in Headers */,
-				6FE39CA1DAA68409174F01E868FA28BE /* RecordTool.h in Headers */,
-				5A6DF58F2EFC889314F993AD4E04F3D7 /* SecretRecord-umbrella.h in Headers */,
-				E7136AD131D48E8C6D8DCCB0172D6AD0 /* wavreader.h in Headers */,
-				D5A60DAE71FEBC56E06A3FD27A2B89D9 /* wavwriter.h in Headers */,
+				AD32083F2DB11629A709D41D02339D9E /* AVAudioPlayer+PCM.h in Headers */,
+				8DBC17E4AAD01DBAE1E4D1288E5F313A /* CommonRecordBall.h in Headers */,
+				E84A336C73DB455452D974C1CB814AE5 /* dec_if.h in Headers */,
+				4729846682C31C92A8D57181F18F96E6 /* enc_if.h in Headers */,
+				F61CA0387C50F7C34BC54B38F207551F /* EncodeAudio.h in Headers */,
+				56C74B4A87BE1BE43768B2F7FF0061C7 /* if_rom.h in Headers */,
+				6A3598407C7D273C0483788BCC02F707 /* interf_dec.h in Headers */,
+				C3ECEADF8DF95AB013621F46C080A00E /* interf_enc.h in Headers */,
+				547720EC9D118C564E11E0FCBA79E98F /* MCAudioInputQueue.h in Headers */,
+				EB8FE5415E7CEB3B8CB5E799D015C0C3 /* NoteAudioFloatWindow.h in Headers */,
+				6CC39A298965F613649A606C11387C69 /* NoteMediaManager.h in Headers */,
+				F2A515342B18FAD51D8E363743BD33DF /* RecordTool.h in Headers */,
+				55B7528636118725388030F5C2B53A38 /* SecretRecord-umbrella.h in Headers */,
+				4286EF17268271B4D508784F4FC6F3C7 /* wavreader.h in Headers */,
+				46EC4A5FDC765A36BE4BB8EB05A14071 /* wavwriter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,18 +633,36 @@
 			productReference = C88360213C689A6D6D51371DAEAAFD60 /* Pods_SecretRecord_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		799E90DBAFA5D88AA02EBBDFE0E18721 /* SecretRecord */ = {
+		4BA5A91786498C8FC1C0D3F06249469F /* SecretRecord-SecretRecord */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77B98D8188F1E62113370C4B190A8D05 /* Build configuration list for PBXNativeTarget "SecretRecord" */;
+			buildConfigurationList = CA3051103EDB002973720D4A0682AD40 /* Build configuration list for PBXNativeTarget "SecretRecord-SecretRecord" */;
 			buildPhases = (
-				7E2C338D7A3C138186607B48ADD2157D /* Headers */,
-				40102F91376AE436B9FEAED5D4C253CD /* Sources */,
-				7C484F82630BBE250F51170556BBDC40 /* Frameworks */,
-				E11E2B9EFEC5558DD0C269709D8AB5DB /* Resources */,
+				E8CC928A0747F5FD1993C439BE0C3B74 /* Sources */,
+				FB837C159DE7FBABF8B295435935A5B2 /* Frameworks */,
+				F37C706C02F72E7603E8B2256E2C533A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = "SecretRecord-SecretRecord";
+			productName = "SecretRecord-SecretRecord";
+			productReference = 6450219D5A6BE65FF4B26DA6C869FCB9 /* SecretRecord.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		799E90DBAFA5D88AA02EBBDFE0E18721 /* SecretRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7579E5ACB6FF4662F56E158EEFF2A2C /* Build configuration list for PBXNativeTarget "SecretRecord" */;
+			buildPhases = (
+				6C7A134EDAA0CF4D48C2A7620CD16F36 /* Headers */,
+				9D6AE963B2C4861DAD0040B9E7F58BC1 /* Sources */,
+				1BB9F6C49657DEFE591ED81341FB9B39 /* Frameworks */,
+				53C42AC26E3395834ADC37C88061CCFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27FD107B31BAC176478B8A05DFECEBB /* PBXTargetDependency */,
 			);
 			name = SecretRecord;
 			productName = SecretRecord;
@@ -588,7 +723,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7E81CCB1350BAB64F597C3287757FA42 /* Products */;
+			productRefGroup = B4EB0D185EE579E627C549FC25D57C0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -596,6 +731,7 @@
 				F16E80856348570C9F3A988A5FE46DD4 /* Pods-SecretRecord_Example */,
 				31DBB7F4969926DCE7DCE88A718B4B46 /* Pods-SecretRecord_Tests */,
 				799E90DBAFA5D88AA02EBBDFE0E18721 /* SecretRecord */,
+				4BA5A91786498C8FC1C0D3F06249469F /* SecretRecord-SecretRecord */,
 			);
 		};
 /* End PBXProject section */
@@ -605,6 +741,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53C42AC26E3395834ADC37C88061CCFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200BB53D015570890F44EAEB5B2CFC84 /* SecretRecord.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,41 +766,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E11E2B9EFEC5558DD0C269709D8AB5DB /* Resources */ = {
+		F37C706C02F72E7603E8B2256E2C533A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C58E86F6FD044BEA51E56A81A2A5E38 /* n_audio_bg@2x.png in Resources */,
+				6EFBE9851E3749E07E532FF2C9047C61 /* n_audio_bg@3x.png in Resources */,
+				0CF2E9746C768E5F9926765ECF6C7335 /* n_audio_icon_0@2x.png in Resources */,
+				B442BCED762D2C26E97752D33DD11954 /* n_audio_icon_0@3x.png in Resources */,
+				6A336368D5DD4B0E3A2D70B573D04DE3 /* n_audio_icon_10@2x.png in Resources */,
+				E4DC4B073E9CF9C966B2758D80182F87 /* n_audio_icon_10@3x.png in Resources */,
+				B55D6FF545B730250ACA7447F14A67AF /* n_audio_icon_11@2x.png in Resources */,
+				D08557D2F185F908B14B9AE67693B53C /* n_audio_icon_11@3x.png in Resources */,
+				51C3CCFFCBDE57E6B2F12905FBDBC048 /* n_audio_icon_12@2x.png in Resources */,
+				9FD1AA39D9E8069E2FDA3BFC8D60B3CD /* n_audio_icon_12@3x.png in Resources */,
+				55417876E3340E7ADA53738C1AB9F6BA /* n_audio_icon_1@2x.png in Resources */,
+				487243173026D0EB20EB3ACE6895FFFA /* n_audio_icon_1@3x.png in Resources */,
+				4717FA9183FD441B764CDFAA37B40716 /* n_audio_icon_2@2x.png in Resources */,
+				C42230CC5223A5ED06478B318FDC7E7B /* n_audio_icon_2@3x.png in Resources */,
+				2213D732483BE1008D2ABE346F3C69AC /* n_audio_icon_3@2x.png in Resources */,
+				413EE6BC5CEE16E3F399FEEFEDD7B5D9 /* n_audio_icon_3@3x.png in Resources */,
+				8BEA8916C75A69CA6DCEC074BBB367FC /* n_audio_icon_4@2x.png in Resources */,
+				DC001DCA598AC0D7D576F758BF8DE267 /* n_audio_icon_4@3x.png in Resources */,
+				D5524C7552C23F21A98E9FEA225773B3 /* n_audio_icon_5@2x.png in Resources */,
+				DDB2B593AE55E3DFDF66C00C2449394C /* n_audio_icon_5@3x.png in Resources */,
+				F12336679FF3070A6A48C08D888CEFCA /* n_audio_icon_6@2x.png in Resources */,
+				025EA222B0CE88C6684293D3835249A9 /* n_audio_icon_6@3x.png in Resources */,
+				83770A58CCEE1C5E71F54E46EBD874D3 /* n_audio_icon_7@2x.png in Resources */,
+				E840C8156A31C345D98B3AD9E19EE081 /* n_audio_icon_7@3x.png in Resources */,
+				B22728384D74C8B65E5EB168204E1AD2 /* n_audio_icon_8@2x.png in Resources */,
+				6BCC33C55FEBA804B2CC109FFAB8E07F /* n_audio_icon_8@3x.png in Resources */,
+				AF917500BD5D2B10DE2A2AC2C7F5DE9E /* n_audio_icon_9@2x.png in Resources */,
+				469BC5A823FB97C7DBBA2E0F6F2BD7CC /* n_audio_icon_9@3x.png in Resources */,
+				D9A621BC5797607C5B41FF8E00DEDBDC /* note_audio_float@2x.png in Resources */,
+				FC19A314B02020F86B6B8FA47092D990 /* note_audio_float@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40102F91376AE436B9FEAED5D4C253CD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				602F6C596F2F37E72A809E03F8FA57E1 /* AVAudioPlayer+PCM.m in Sources */,
-				19EED07A06B38E7FBFB3DDF5FA4C2B54 /* CommonRecordBall.m in Sources */,
-				37C38F64EDE3DA1E7055FE820DF10A82 /* EncodeAudio.m in Sources */,
-				9D8B35859D09B699CBA944625F941F94 /* libopencore-amrnb.a in Sources */,
-				023AF861F3A39F4BD782066B2A02D168 /* libopencore-amrwb.a in Sources */,
-				8597ACE6F1FEF50DBAC0C61DACBFD220 /* libvo-amrwbenc.a in Sources */,
-				CFD730DC8C4B2D0C623F3C27266D7D72 /* MCAudioInputQueue.m in Sources */,
-				CC22F2C751144ED869ADAD9DEE6FB234 /* NoteAudioFloatWindow.m in Sources */,
-				AD8F77073577FDC7225CC2113A89E514 /* NoteMediaManager.m in Sources */,
-				3D99B3C650C6AEB44E97E567BD375641 /* RecordTool.m in Sources */,
-				75ACDCEA781BB1D1E76D336F24FDB558 /* SecretRecord-dummy.m in Sources */,
-				475362B7F881A55753D98C340596E351 /* wavreader.c in Sources */,
-				D9DC2AC33FCCF1AD21BD03445FCCB0D3 /* wavwriter.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81A338FDB038D54F2A200804CFF95BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				94FDA34CB98E065BDD83498C9FBB90F1 /* Pods-SecretRecord_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6AE963B2C4861DAD0040B9E7F58BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FF67AC47CCD2C3EF09DADCF66FD699 /* AVAudioPlayer+PCM.m in Sources */,
+				4F96A9B629CAF21F8D9A10881BA744E5 /* CommonRecordBall.m in Sources */,
+				982228101FB58871FC2E3825EF5B4DF2 /* EncodeAudio.m in Sources */,
+				0D873337725A2F09FBE10C93269B6C03 /* libopencore-amrnb.a in Sources */,
+				DB622694B990DE5CF1C015F316362559 /* libopencore-amrwb.a in Sources */,
+				233AB1BDFD282F3F17D2307EEC203456 /* libvo-amrwbenc.a in Sources */,
+				A79A7A5A4C012829356BF7D5C4C7D517 /* MCAudioInputQueue.m in Sources */,
+				4200CA4F73F1B036CC77EEFEDC1F6244 /* NoteAudioFloatWindow.m in Sources */,
+				4D3DD8661F517C75E2CAA6FBE33B61A2 /* NoteMediaManager.m in Sources */,
+				6BB1B392F5489562713B78ED0D7E9CB0 /* RecordTool.m in Sources */,
+				8F08C2480D3863FC16B3D37108837A8C /* SecretRecord-dummy.m in Sources */,
+				BD6EA4D0A2D1F484D4C919E871D54785 /* wavreader.c in Sources */,
+				D52380CF9B6D6CBB87CE393E24CEB2B1 /* wavwriter.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +858,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8CC928A0747F5FD1993C439BE0C3B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -705,9 +886,49 @@
 			target = 799E90DBAFA5D88AA02EBBDFE0E18721 /* SecretRecord */;
 			targetProxy = B304F0A12369164B9FD4DDF403543BD1 /* PBXContainerItemProxy */;
 		};
+		C27FD107B31BAC176478B8A05DFECEBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SecretRecord-SecretRecord";
+			target = 4BA5A91786498C8FC1C0D3F06249469F /* SecretRecord-SecretRecord */;
+			targetProxy = C816253A9F60C4AB4B76F9FC58D03847 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		37BE19C64E2954FB41F6723671411D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843C57832F913F137FBAEB1113BCC370 /* SecretRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SecretRecord";
+				IBSC_MODULE = SecretRecord;
+				INFOPLIST_FILE = "Target Support Files/SecretRecord/ResourceBundle-SecretRecord-SecretRecord-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SecretRecord;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		43582072F03C543F8A9370FBB81DF76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843C57832F913F137FBAEB1113BCC370 /* SecretRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SecretRecord";
+				IBSC_MODULE = SecretRecord;
+				INFOPLIST_FILE = "Target Support Files/SecretRecord/ResourceBundle-SecretRecord-SecretRecord-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SecretRecord;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -965,6 +1186,37 @@
 			};
 			name = Release;
 		};
+		B63403653501D1CC720B3E54D1A7210F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843C57832F913F137FBAEB1113BCC370 /* SecretRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SecretRecord/SecretRecord-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SecretRecord/SecretRecord-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SecretRecord/SecretRecord.modulemap";
+				PRODUCT_MODULE_NAME = SecretRecord;
+				PRODUCT_NAME = SecretRecord;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		C905D7410BEFB1C6810BCA47F4CD4586 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B42537B61DC7BC91EA2DBF2A68783B1 /* Pods-SecretRecord_Example.debug.xcconfig */;
@@ -998,6 +1250,38 @@
 			};
 			name = Debug;
 		};
+		CB70D615E84AAA220DE283B738D7ACEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843C57832F913F137FBAEB1113BCC370 /* SecretRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SecretRecord/SecretRecord-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SecretRecord/SecretRecord-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SecretRecord/SecretRecord.modulemap";
+				PRODUCT_MODULE_NAME = SecretRecord;
+				PRODUCT_NAME = SecretRecord;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		EE252C6C51286892441EE171776C7E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */;
@@ -1029,69 +1313,6 @@
 			};
 			name = Debug;
 		};
-		FE095CB0C69508E54A66493E705EE5C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC85B9C031E870DE6715E770BFA39EB /* SecretRecord.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SecretRecord/SecretRecord-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SecretRecord/SecretRecord-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SecretRecord/SecretRecord.modulemap";
-				PRODUCT_MODULE_NAME = SecretRecord;
-				PRODUCT_NAME = SecretRecord;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FE66BAEFD7B88F215A2588CD6726C7B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC85B9C031E870DE6715E770BFA39EB /* SecretRecord.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SecretRecord/SecretRecord-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SecretRecord/SecretRecord-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SecretRecord/SecretRecord.modulemap";
-				PRODUCT_MODULE_NAME = SecretRecord;
-				PRODUCT_NAME = SecretRecord;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1104,20 +1325,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77B98D8188F1E62113370C4B190A8D05 /* Build configuration list for PBXNativeTarget "SecretRecord" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FE095CB0C69508E54A66493E705EE5C2 /* Debug */,
-				FE66BAEFD7B88F215A2588CD6726C7B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE252C6C51286892441EE171776C7E81 /* Debug */,
 				6981B49048575F8238B3C5B905C918E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3051103EDB002973720D4A0682AD40 /* Build configuration list for PBXNativeTarget "SecretRecord-SecretRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BE19C64E2954FB41F6723671411D25 /* Debug */,
+				43582072F03C543F8A9370FBB81DF76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1136,6 +1357,15 @@
 			buildConfigurations = (
 				8709F09182DA07E7955ECBF793FF25EA /* Debug */,
 				9F8CCFE2AEFA62F821E7536D7DFB85AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7579E5ACB6FF4662F56E158EEFF2A2C /* Build configuration list for PBXNativeTarget "SecretRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63403653501D1CC720B3E54D1A7210F /* Debug */,
+				CB70D615E84AAA220DE283B738D7ACEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

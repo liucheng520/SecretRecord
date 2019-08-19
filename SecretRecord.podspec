@@ -21,4 +21,7 @@ this is a great audio record tool
 
   s.source_files = 'SecretRecord/Classes/*.{h,m,c,a}'
   s.vendored_libraries  = 'SecretRecord/Classes/*.{a}'
+  s.resource_bundles = {
+    'SecretRecord' => ['SecretRecord/Assets/*.png']
+  }
 end
